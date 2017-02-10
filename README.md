@@ -25,6 +25,8 @@ $ export PATH
 
 ```
 $ source configure_coqbin.sh # optional
+$ git submodule init
+$ git submodule update
 $ make -C frap lib
 $ make -C pset1
 ```
