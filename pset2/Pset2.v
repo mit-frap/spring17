@@ -22,6 +22,7 @@ Check compare_lt_iff. (* Note that this one can be used with [apply], despite th
                        * includes an "if and only if" ([<->]) where other theorems use simple
                        * implication ([->]). *)
 Check compare_gt_iff.
+Check compare_eq_iff.
 
 Theorem insert_member: forall tr n, BST tr -> member n (insert n tr) = true.
 Proof.
