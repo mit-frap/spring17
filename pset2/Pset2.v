@@ -23,19 +23,19 @@ Check compare_lt_iff. (* Note that this one can be used with [apply], despite th
                        * implication ([->]). *)
 Check compare_gt_iff.
 
-Theorem insert_member: forall t n, BST t -> member n (insert n t) = true.
+Theorem insert_member: forall tr n, BST tr -> member n (insert n tr) = true.
 Proof.
 Admitted.
 
-Theorem insert_ok: forall t n, BST t -> BST (insert n t).
+Theorem insert_ok: forall tr n, BST tr -> BST (insert n tr).
 Proof.
 Admitted.
 
-Theorem delete_ok: forall t n, BST t -> BST (delete n t).
+Theorem delete_ok: forall tr n, BST tr -> BST (delete n tr).
 Proof.
 Admitted.
 
 (* OPTIONAL PART! *)
-(*Theorem delete_member: forall t n, BST t -> member n (delete n t) = false.
+(*Theorem delete_member: forall tr n, BST tr -> member n (delete n tr) = false.
 Proof.
 Admitted.*)
