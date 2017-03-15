@@ -7,4 +7,3 @@ coq:
 
 clean:
 	rm -f *.vo *.glob
-	rm -f *.aux *.out *.log *.pdf
